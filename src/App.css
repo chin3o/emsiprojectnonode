@@ -2,17 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Parentdiv{
+  height: 10px;
+  width: 60%;
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  margin: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -27,12 +23,39 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-logo {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  margin-top: 0;
 }
+
+.BigTable{
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+  padding: 3%;
+  background-color: #eeeeee;
+}
+.logoCell {
+  width: 30%;
+}
+
+.infoCell{
+  width: 70%
+}
+.SchoolCard{
+  top:0;
+  height:100%;
+  margin:5%;
+  margin-top:0;
+  border: 1%;
+  border-style: outset;
+  background-color: #ffffff;
+}
+
+.BasicInfoTable{
+  width: 100%;
+  height: 80%;
+}
+
